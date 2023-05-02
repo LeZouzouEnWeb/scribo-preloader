@@ -13,4 +13,8 @@
 >
 >     * Ajout du module jquery
 >
+> * ***1.1.07***
+>
+>     * Correction de bug majeur
+>
 ***
