@@ -27,6 +27,7 @@
 > * ***1.1.09***
 >
 >     * Suppression d'un bug dans le script
+>     * Ajout du control si la page mets plus de 5s. à s'afficher
 >.
 >
 ***
