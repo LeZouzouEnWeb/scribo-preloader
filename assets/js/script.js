@@ -1,15 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("load", function () {
-        let chgt = document.getElementById("chgt"),
-            chgtWrapper = document.getElementById("chgt-wrapper");
+        let chgt = document.getElementById("chgt");
 
         // chgt.style.display = "none";
         fadeOutAndIn(chgt, 500, 1000);
-        fadeOutAndIn(chgtWrapper, 100, 1400);
 
         window.setTimeout(function () {
-            // chgt.innerHTML = "";
-        }, 10000);
+            chgt.innerHTML = "";
+        }, 3000);
     });
 });
 

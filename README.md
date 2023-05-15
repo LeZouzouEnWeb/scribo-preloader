@@ -3,7 +3,7 @@
 > **Version 1**
 >
 > * Création de Scribo preloader
->
+>.
 >
 ***
 > <u>**Version 1.1.0x**</u>
@@ -23,6 +23,11 @@
 > * ***1.1.08***
 >
 >     * Modification du preloader
+>
+> * ***1.1.09***
+>
+>     * Suppression d'un bug dans le script
+>.
 >
 ***
 

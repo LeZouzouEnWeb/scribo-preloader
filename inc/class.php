@@ -140,6 +140,7 @@ class initialyse extends Wpspld
         add_filter('action_links_' . basename(__FILE__), array($this, 'settings_action_links', 10, 2));
         add_action('wp_enqueue_scripts', array($this, 'init'));
         add_action('wp_enqueue_scripts', array($this, 'styles'));
+        add_action('head', array($this, 'reload'));
     }
     public function setup()
     {
@@ -164,11 +165,17 @@ class initialyse extends Wpspld
         global $wpspld_version;
         $v = $wpspld_version;
         wp_register_script('script-scribo-preloader', WPSPLD_R_JS . '/script.min.js', '', $v['js'], true);
+        wp_register_script('script-scribo-reloader', WPSPLD_R_JS . '/script_head.min.js', '', $v['js'], true);
     }
 
     public function styles()
     {
         if (!is_admin())
             wp_enqueue_script('script-scribo-preloader');
+    }
+    public function reload()
+    {
+        if (!is_admin())
+            wp_enqueue_script('script-scribo-reloader');
     }
 }
