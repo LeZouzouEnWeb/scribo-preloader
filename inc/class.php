@@ -12,9 +12,6 @@ class Wpspld
         add_action('wp_footer', array($this, 'preloader_script'));
     }
 
-
-
-
     public function ajouter_element_dans_body($content)
     {
 
@@ -34,60 +31,36 @@ class Wpspld
         <style id='chgt-style'>
             #chgt {
                 position: absolute;
+                display: flex;
                 top: 10px;
-                left: 0px;
-                width: 100vw;
-                height: 135px;
+                right: 5vw;
+                width: 240px;
+                z-index: 99;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: center;
             }
 
             #chgt img {
-                display: inline-block;
-                position: relative;
-                left: -100px;
-                top: 0px;
                 width: 100px;
-                animation-name: hamster;
-                animation-duration: 8s;
-                animation-timing-function: linear;
-                animation-iteration-count: infinite;
             }
 
-            @keyframes hamster {
-                0% {
-                    left: -100px;
-                    top: 0px;
-                }
-
-                45% {
-                    left: 45vw;
-                    top: 70px;
-                }
-
-                55% {
-                    left: 55vw;
-                    top: 70px;
-                }
-
-                100% {
-                    left: calc(100px + 100vw);
-                    top: 0px;
-                }
-            }
 
             #chgt span {
-                right: 4vw;
-                position: absolute;
-                bottom: 0px;
-                font-size: 0.65em;
+                margin: 0;
+                padding: 4px 8px !important;
+                font-size: 20px;
                 font-weight: bold;
                 white-space: nowrap;
                 color: #fff !important;
                 background-color: hsl(303deg 81.56% 39.47% / 61%) !important;
                 transform: skewX(-20deg);
                 animation-name: mon_span;
-                animation-duration: 2s;
+                animation-duration: 1.35s;
                 animation-timing-function: linear;
                 animation-iteration-count: infinite;
+
             }
 
             @keyframes mon_span {
@@ -107,15 +80,16 @@ class Wpspld
 
             @media screen and (max-width: 768px) {
                 #chgt {
-                    height: 130px;
+                    width: 210px;
                 }
 
                 #chgt img {
                     width: 100px;
+                    margin-left: calc(100% - 120px);
                 }
 
                 #chgt span {
-                    font-size: 0.9em;
+                    font-size: 16px;
 
                 }
             }

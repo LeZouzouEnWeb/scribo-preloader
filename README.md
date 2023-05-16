@@ -31,8 +31,26 @@
 >.
 >
 ***
+> <u>**Version 1.1.1x**</u>
+>
+> * ***1.1.10***
+>
+>     * Modification de l'affichage de l'animation
+>
+>**16/05/2023**
+>
+> * ***1.1.11***
+>
+>     * Modification du positionnement du preloader
+>
+>.
+>
+***
 
-<span style="color:blue"><b>Reste à intéger :
-<li  style="color:blue">Module option dans le menu admin avec le choix du preloader</li></b></span>
+**<span style="color:blue">Reste à intéger :</span>**
+
+* [ ] <span  style="color:blue">Module option dans le menu admin avec le choix du preloader</span></b></span>
+* [ ] <span  style="color:blue">Ajout de choix de preloader</span></b></span>
+* [ ] <span  style="color:blue">Possibilité de changer l'image et le texte</span>
 
 * [ ] terminé
