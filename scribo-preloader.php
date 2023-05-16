@@ -18,7 +18,7 @@
 
 defined('ABSPATH') or die();
 define('WPSPLD_DIR_PLUGIN', 'scribo-preloader');
-define('WPSPLD_VERSION', '1.1.11');
+define('WPSPLD_VERSION', '1.1.12');
 
 
 

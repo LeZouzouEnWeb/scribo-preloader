@@ -8,7 +8,7 @@ class Wpspld
     {
 
         add_action('wp_head', array($this, 'preloader_head'));
-        add_action('wp_head', array($this, 'ajouter_element_dans_body'));
+        add_action('wp_body_open', array($this, 'ajouter_element_dans_body'));
         add_action('wp_footer', array($this, 'preloader_script'));
     }
 

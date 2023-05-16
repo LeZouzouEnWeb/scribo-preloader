@@ -43,6 +43,13 @@
 >
 >     * Modification du positionnement du preloader
 >
+>**17/05/2023**
+>
+> * ***1.1.12***
+>
+>     * Correction du chargement du div chgt dans le body et non dans le header
+>
+>
 >.
 >
 ***
