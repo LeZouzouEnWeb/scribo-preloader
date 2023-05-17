@@ -45,9 +45,11 @@
 >
 >**17/05/2023**
 >
-> * ***1.1.12***
+> * ***1.1.13***
 >
 >     * Correction du chargement du div chgt dans le body et non dans le header
+>     * Correction du fichier de traduction
+>
 >
 >
 >.
@@ -56,8 +58,8 @@
 
 **<span style="color:blue">Reste à intéger :</span>**
 
-* [ ] <span  style="color:blue">Module option dans le menu admin avec le choix du preloader</span></b></span>
-* [ ] <span  style="color:blue">Ajout de choix de preloader</span></b></span>
+* [ ] <span  style="color:blue">Module option dans le menu admin avec le choix du preloader</span>
+* [ ] <span  style="color:blue">Ajout de choix de preloader</span>
 * [ ] <span  style="color:blue">Possibilité de changer l'image et le texte</span>
 
 * [ ] terminé

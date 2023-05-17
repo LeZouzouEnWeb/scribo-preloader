@@ -21,7 +21,7 @@ class Wpspld
                 <span class='w3-panel w3-leftbar w3-border-grey w3-card-4 w3-tag w3-padding w3-round-large w3-center'>%2\$s</span>
             </div>",
             WPSPLD_R_IM . "/hamster-unscreen.gif",
-            __("Charging in progress ...", 'scribo-preloader')
+            __('Charging in progress ...', 'scribo-preloader')
         );
     }
 
@@ -118,19 +118,13 @@ class initialyse extends Wpspld
     }
     public function setup()
     {
-        /*
-* Make theme available for translation.
-* Translations can be filed in the /languages/ directory.
-* If you're building a theme based on CorbyCats, use a find and replace
-* to change 'corbycats' to the name of your theme in all the template files.
-*/
         load_theme_textdomain('scribo-preloader', get_template_directory() . '/languages');
     }
 
     public function settings_action_links($links, $file)
     {
         // lien vers la page de config de ce plugin
-        array_unshift($links, '<a href="' . admin_url('options-general.php?page=wpspld') . '">' . __('Settings') . '</a>');
+        array_unshift($links, '<a href="' . admin_url('options-general.php?page=wpspld') . '">' . __('Settings', 'scribo-preloader') . '</a>');
         return $links;
     }
 

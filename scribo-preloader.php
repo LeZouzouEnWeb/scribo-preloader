@@ -1,10 +1,10 @@
 <?php
 
 /**
- * Plugin Name:       Scribo Preloader pour CorbibiCoon
+ * Plugin Name:       Scribo Preloader for CorbibiCoon
  * Plugin URI:        https://www.corbisier.fr/wordpress/plugins/preloader/
- * Description:       Un plugin preloader pour la page d'accueil des Corbibicoon.
- * Version:           1.1.11
+ * Description:       A preloader plugin for the Corbibicoon homepage.
+ * Version:           1.1.13
  * Requires at least: 5.2
  * Requires PHP:      7.4
  * Author:            Eric CORBISIER
@@ -18,12 +18,7 @@
 
 defined('ABSPATH') or die();
 define('WPSPLD_DIR_PLUGIN', 'scribo-preloader');
-define('WPSPLD_VERSION', '1.1.12');
-
-
-
-
-
+define('WPSPLD_VERSION', '1.1.13');
 
 // absolue : 
 
